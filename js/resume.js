@@ -31,8 +31,8 @@ for(var i=1; i < bar_count; i++) {
 // function that horizontally moves the bars and creates the animated illusion
 $(document).scroll(function() {
     xpos = $(document).scrollTop();
-    barbox.css('right', (offset + xpos) / 10);
-    new_xpos = (offset + xpos) / 10;
+    barbox.css('right', (offset + xpos) / 10); // divide by 10 to slow speed
+    new_xpos = (offset + xpos) / 10;           // divide by 10 to slow speed
 });
 
 //============================================================================
@@ -165,7 +165,6 @@ var skills = [
     ['Coffeescript', 50],
     ['Actionscript', 44],
     ['Clojure', 21],
-    ['R', 20]
 ];
 
 // create the root element for holding our barchart
