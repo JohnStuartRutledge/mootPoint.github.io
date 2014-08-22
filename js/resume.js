@@ -31,8 +31,8 @@ for(var i=1; i < bar_count; i++) {
 // function that horizontally moves the bars and creates the animated illusion
 $(document).scroll(function() {
     xpos = $(document).scrollTop();
-    barbox.css('right', offset + xpos);
-    new_xpos = offset + xpos;
+    barbox.css('right', (offset + xpos) / 10);
+    new_xpos = (offset + xpos) / 10;
 });
 
 //============================================================================
@@ -158,7 +158,7 @@ function textFade() {
 
 var skills = [
     ['HTML', 100],
-    ['CSS/LESS/SASS/Stylus', 100],
+    ['CSS/SASS', 100],
     ['Python', 97],
     ['Javascript', 80],
     ['PHP', 70],
