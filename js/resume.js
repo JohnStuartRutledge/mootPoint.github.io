@@ -42,7 +42,7 @@ $(document).scroll(function() {
 // set width, height, and the data you will be displaying
 var w = window.innerWidth,
     h = 100,
-    mydata = ['Dec 2005', '2005 - 2007', '2007 - 2009', '2010 - 2013'];
+    mydata = '[2005 - 2007', '2007 - 2009', '2010 - 2013', '2013 - 2014'];
 
 // function for mapping the circles evenly across the line
 var scale = d3.scale.linear()
@@ -158,8 +158,8 @@ function textFade() {
 
 var skills = [
     ['HTML', 100],
-    ['CSS/LESS', 100],
-    ['Python', 90],
+    ['CSS/LESS/SASS/Stylus', 100],
+    ['Python', 97],
     ['Javascript', 80],
     ['PHP', 70],
     ['Coffeescript', 50],
