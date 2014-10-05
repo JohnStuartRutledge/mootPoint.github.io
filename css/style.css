@@ -23,6 +23,10 @@ header p {
     text-align: center;
 }
 
+#resume-hard-copy {
+    float: right;
+}
+
 #illusion {
     text-align: center;
     width: 100%;

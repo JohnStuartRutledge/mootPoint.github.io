@@ -159,8 +159,8 @@ function textFade() {
 var skills = [
     ['HTML', 100],
     ['CSS/SASS', 100],
-    ['Python', 97],
-    ['Javascript', 80],
+    ['Python', 100],
+    ['Javascript', 85],
     ['PHP', 70],
     ['Coffeescript', 50],
     ['Actionscript', 44],
